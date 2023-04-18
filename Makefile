@@ -6,6 +6,7 @@
 install:
 	pip install -r requirements.txt
 	sudo apt-get install poppler-utils
+	sudo apt-get install tesseract-ocr
 
 # run the program
 run:
